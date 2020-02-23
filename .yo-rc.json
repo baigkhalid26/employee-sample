@@ -37,6 +37,15 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en", "ar-ly"],
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["myapp"],
+    "directoryPath": "../",
+    "monitoring": "prometheus",
+    "jwtSecretKey": "OTY0YTRjYjQ1YWUwNjc1OTVmYTE2ZTFkMDI2MmNmNjM4N2I1M2NhYWI0ZTk0ZmZiZDkxNWIzYmRkZDYyMzRhNmQxMWI0MjU5M2QzZDBmM2UyMjNjZjU0NDA1YWJlNWZjOWMwYQ==",
+    "dockerRepositoryName": "drosapp",
+    "dockerPushCommand": "docker push",
+    "openshiftNamespace": "drosapp",
+    "storageType": "persistent",
+    "registryReplicas": 2
   }
 }
